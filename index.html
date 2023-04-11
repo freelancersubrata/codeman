@@ -7,19 +7,21 @@
     <title>Bootstrap 5 - Section Development</title>
     <!-- CSS -->
     <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="resources/css/style.css">
 </head>
 <body>
     <!-- ------------------------------- Navbar Start -------------------------------- -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light  py-3">
+      <nav class="navbar navbar-expand-lg fixed-top py-3">
         <div class="container">
           <a class="navbar-brand" href="#"><span style="color: #2473e3;">Code</span><span style="color:#ffbb51;">Man</span>.</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto navbar_bg_color">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
@@ -49,6 +51,17 @@
       </nav>
     </header>
     <!-- ----------------------------- Navbar End ------------------------------ -->
+
+      <!-- ------------------- The social media icon bar Start -------------------- -->
+<div class="icon-bar">
+  <a href="https://www.facebook.com/rohit.saha.902/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://www.linkedin.com/in/subrata-saha-b8806abb/" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="google"><i class="fa fa-google"></i></a>
+  <a href="https://www.linkedin.com/in/subrata-saha-b8806abb/" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+</div>
+ <!-- -------------------- The social media icon bar End -------------------- -->
+
 
 
     <!-- -------------------------- Hero Section Start --------------------------- -->
@@ -170,13 +183,13 @@
 
               <div class="mt-4">
                 <!-- Facebook -->
-                <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-facebook-f"></i></a>
+                <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fa fa-facebook-f"></i></a>
                 <!-- Dribbble -->
-                <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-dribbble"></i></a>
+                <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fa fa-dribbble"></i></a>
                 <!-- Twitter -->
-                <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-twitter"></i></a>
+                <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fa fa-twitter"></i></a>
                 <!-- Google + -->
-                <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fab fa-google-plus-g"></i></a>
+                <a type="button" class="btn btn-floating btn-primary btn-lg"><i class="fa fa-google-plus-g"></i></a>
                 <!-- Linkedin -->
               </div>
             </div>
@@ -193,16 +206,16 @@
 
               <ul class="fa-ul" style="margin-left: 1.65em;">
                 <li class="mb-3">
-                  <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">New York, NY 10012, US</span>
+                  <span class="fa-li"><i class="fa fa-home"></i></span><span class="ms-2">New York, NY 10012, US</span>
                 </li>
                 <li class="mb-3">
-                  <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">info@example.com</span>
+                  <span class="fa-li"><i class="fa fa-envelope"></i></span><span class="ms-2">info@example.com</span>
                 </li>
                 <li class="mb-3">
-                  <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 01 234 567 88</span>
+                  <span class="fa-li"><i class="fa fa-phone"></i></span><span class="ms-2">+ 01 234 567 88</span>
                 </li>
                 <li class="mb-3">
-                  <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">+ 01 234 567 89</span>
+                  <span class="fa-li"><i class="fa fa-print"></i></span><span class="ms-2">+ 01 234 567 89</span>
                 </li>
               </ul>
             </div>
